@@ -1,0 +1,26 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:aquamarine;
+    background-image: url("https://img.freepik.com/free-vector/gradient-blue-background_23-2149333531.jpg");
+    background-size: contain;
+    color:black;/*font color*/   /*css is inside html when we are doing styling*/
+}
+img{
+    display:block;
+    padding: 15px;
+    border: 2px solid black;
+    margin: auto;
+    text-align: center;
+}
+a:visited{
+    color:purple;
+}
+
+li{
+    font-style:italic;
+}
+li:hover{
+    font-size:105%;
+    text-decoration: underline;
+    background-color:pink;
+}
